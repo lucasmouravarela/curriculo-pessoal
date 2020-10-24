@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-e-nome > img {
+    border-radius: 15rem;
+}
+
+.logo-e-nome {
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo-e-nome h1 {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+header nav > ul{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+}
+
+header nav > ul > li {
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 3rem;
+        flex-direction: column;
+    }
+
+    .logo-e-nome > img {
+        display: none;
+    }
+} 
