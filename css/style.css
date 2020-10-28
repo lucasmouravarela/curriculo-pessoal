@@ -23,7 +23,7 @@ body {
 header {
     width: 100vw;
     position: fixed;
-    padding: 2rem;
+    padding: 4rem;
     background-color: rgba(0,0,0,0.4);
     color: aliceblue;
 }
@@ -54,8 +54,25 @@ header {
 
 /* Desktop version */
 @media (min-width: 769px) {
-    .logoEnome > img {
-        display: initial;
-        opacity: 0.9;
+    header {
+        width: 20vw;
+        height: 100vh;
+        padding: 4rem;
+        justify-content: center;
+        text-align: center;
     }
+
+    .perfil {
+        display: initial;
+    }
+
+    .perfil > img, h1 {
+        margin: initial;
+    }
+
+
+    
+
+    
+
 }
