@@ -12,7 +12,7 @@
 
 body {
   height: 100vh;
-  background: url(../img/background.jpg) center/*/cover*/ no-repeat fixed;
+  background: url(../img/background.jpg) center/cover no-repeat fixed;
   font-family: "Lato", sans-serif;
 }
 
