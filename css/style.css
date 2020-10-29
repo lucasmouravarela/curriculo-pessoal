@@ -53,26 +53,24 @@ h1 {
 }
 
 /* Desktop version */
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
   header {
-    width: 20vw;
+    width: 320px;
     height: 100vh;
     padding: 3rem;
-    justify-content: center;
-    text-align: center;
   }
 
   .perfil {
     display: initial;
   }
 
-  .perfil > img,
-  h1 {
-    margin: initial;
+  .perfil > img {
+    max-height: 12vh;
+    border-radius: 10rem;
+    border: 2px solid white;
   }
 
-  .perfil > img {
-    max-height: 10vh;
-    border-radius: 10rem;
+  .perfil > h1, small {
+    font-size: 1.6vw;
   }
 }
