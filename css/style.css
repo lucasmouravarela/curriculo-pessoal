@@ -73,6 +73,10 @@ main {
   margin: 0;
 }
 
+h4 {
+  margin-bottom: 0.5rem;
+}
+
 .glassMain > p {
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
@@ -144,12 +148,11 @@ h1 {
 }
 .progress_bar h4{
   font-size: 1.25rem;
-  font-style: italic;
   color: #fff;
 }
 .progress_bar .progress{
   width: 100%;
-  background: rgba(8,102,220,.2);
+  background: rgba(255, 255, 255, 0.5);
   overflow: hidden;
   border-radius:5px;
 }
