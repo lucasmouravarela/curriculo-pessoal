@@ -21,15 +21,15 @@ body {
   flex-direction: column;
 }
 
-.content {
-  flex: 1 0 auto;
-}
-
 .glassTop {
   border-bottom: 0.1rem solid grey;
   padding: 1rem 1rem;
   background-color: rgba(0, 0, 0, 0.45);
   color: #fff;
+}
+
+.glassTop .fab {
+  display: none;
 }
 
 .profile {
@@ -268,5 +268,34 @@ progress::-webkit-progress-bar {
 }
 
 /* Desktop version */
-@media (min-device-width: 1025px) {
+@media (min-device-width: 1024px) {
+  body {
+    flex-direction: row;
+  }
+  
+  header {
+    display: flex;
+    
+  }
+
+  .glassTop {
+    height: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .glassTop > a{
+    padding: 1rem;
+  }
+
+  .glassTop .fab {
+    color: inherit;
+    display: inherit;
+  }
+
+  .footer {
+    display: none;
+  }
 }
