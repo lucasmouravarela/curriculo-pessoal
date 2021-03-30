@@ -15,12 +15,6 @@ html {
   font-family: "Lato", sans-serif;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .glassTop {
   border-bottom: 0.1rem solid grey;
   padding: 1rem 1rem;
@@ -59,10 +53,6 @@ h1 {
 
 .text {
   display: none;
-}
-
-.main {
-  flex: 1
 }
 
 .glassMain {
@@ -274,28 +264,37 @@ progress::-webkit-progress-bar {
 /* Desktop version */
 @media (min-device-width: 1024px) {
   body {
-    flex-direction: row;
+    display: block;
   }
   
   header {
-    display: flex;
-    
   }
 
   .glassTop {
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    height: 100%;
+    width: 30rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
     border-right: 0.1rem solid grey;
     border-bottom: none;
   }
 
-  .profile {
-    padding: 2rem 0;
+  .main {
+    margin-left: 30rem;
+    padding: 3rem;
   }
 
+  .profile {
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  
   .text {
     display: inherit;
     font-size: 2rem;
