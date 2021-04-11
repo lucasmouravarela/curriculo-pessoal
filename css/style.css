@@ -266,16 +266,13 @@ progress::-webkit-progress-bar {
   body {
     display: block;
   }
-  
-  header {
-  }
 
   .glassTop {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    width: 30rem;
+    width: 25rem;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -291,14 +288,17 @@ progress::-webkit-progress-bar {
   }
 
   .profile {
+    flex-direction: column;
     justify-content: center;
+
+    align-items: center;
+    align-self: center;
     padding: 2rem 0;
   }
   
   .text {
     display: inherit;
     font-size: 2rem;
-    margin-left: 1rem;
   }
 
   .glassTop .fab {
