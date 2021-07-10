@@ -16,7 +16,7 @@ html {
 }
 
 .glassTop {
-  border-bottom: 0.1rem solid grey;
+  border-bottom: 0.2rem solid #8080806e;
   padding: 1rem 1rem;
   background-color: rgba(0, 0, 0, 0.45);
 
@@ -35,7 +35,7 @@ html {
 .profile > img {
   max-height: 50px;
   border-radius: 10rem;
-  border: 2px solid rgb(136, 153, 166);;
+  border: 2px solid rgb(136, 153, 166);
 }
 
 .profile > img,
@@ -56,7 +56,7 @@ h1 {
 }
 
 .glassMain {
-  border-top: 0.1rem solid grey;
+  border: 0.2rem solid #8080806e;
   margin: 3rem;
   padding: 1.2rem;
   background-color: rgba(0, 0, 0, 0.25);
@@ -96,7 +96,7 @@ h1 {
 }
 
 .glassBottom {
-  border-top: 0.1rem solid grey;
+  border-top: 0.2rem solid #8080806e;
   padding: 0.3rem 2rem;
   background-color: rgba(0, 0, 0, 0.45);
   color: rgb(136, 153, 166);
@@ -279,7 +279,7 @@ progress::-webkit-progress-bar {
     top: 0;
     left: 0;
     overflow-x: hidden;
-    border-right: 0.1rem solid grey;
+    border-right: 0.2rem solid #8080806e;
     border-bottom: none;
   }
 
